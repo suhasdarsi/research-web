@@ -1,4 +1,23 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My Blog"
-theme = "ananke"
+theme = "kube"
+description = "My Personal Blog"
+Paginate = 4
+[Params]
+  author = "newpixcom" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "darsisuhas666@gmail.com"
+
+
+[[menu.main]]
+    name = "About"
+    weight = -100
+    url = "/about/"
+
+
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
